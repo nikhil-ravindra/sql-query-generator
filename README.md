@@ -1,12 +1,11 @@
-#SQL Query Generator
+### SQL Query Generator
 
 Convert plain English questions into SQL queries using an LLM — no SQL knowledge required.
 
 Type something like *"show me all students who failed"* and the app writes the SQL for you, runs it on a real database, and displays the results.
 
----
 
-##What It Does
+## What It Does
 
 - Takes a natural language question as input
 - Sends it to an LLM (Llama 3 via Groq API) along with the database schema
@@ -14,7 +13,6 @@ Type something like *"show me all students who failed"* and the app writes the S
 - Runs the query on a local SQLite database
 - Displays both the generated SQL and the actual results
 
----
 
 ## Project Structure
 
