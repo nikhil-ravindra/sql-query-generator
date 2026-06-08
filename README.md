@@ -1,8 +1,8 @@
 ### SQL Query Generator
 
-Convert plain English questions into SQL queries using an LLM — no SQL knowledge required.
+## Core Features & Problem Statement
 
-Type something like *"show me all students who failed"* and the app writes the SQL for you, runs it on a real database, and displays the results.
+In a typical enterprise ecosystem, business units (Product, Sales, Finance) constantly require database insights to drive critical decision-making. However, accessing this data introduces an operational bottleneck: it relies on data engineers or backend developers to manually interpret requirements and write SQL code. This introduces latency in business loops and drains expensive engineering resources on mundane, repetitive tasks.
 
 
 ## What It Does
